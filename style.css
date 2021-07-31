@@ -1,0 +1,72 @@
+body{
+  margin:0;
+}
+header{
+    padding: 20px;
+    height: 100vh;
+    background: url("viratkohli-1.jpg") no-repeat  center;
+    background-size: cover;
+    position: relative;
+}
+.container ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+  
+  .container ul li {
+    list-style: none;
+}
+  .container ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+  
+  .container ul li a:hover {
+    border-bottom: 3px solid #fff;
+}
+  .content h1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.788);
+    margin-bottom: 50px;
+}
+   .content {
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+  .div1{
+    color: white;
+    padding: 100px 150px 150px 100px;
+    position: center;
+    background: linear-gradient(to bottom, #16222a, #4e4376);
+}
+  .div1 h1{
+    font-size:230%;
+}
+  .div1 p{
+    font-weight: 400%;
+}
+  .div2 ul li{
+  list-style: disc;
+  padding-right: 150px;
+}
+  .div2{
+    color: white;
+    padding: 100px 150px 150px 100px;
+    position: center;
+    background: linear-gradient(to top, #2d3a39, #162627);
+    font-weight: 400%;
+  }
+  .div2 h1{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
